@@ -8,5 +8,5 @@ setup(
     description='A simple binary classifier for generated transient data.',
     keywords='transient binary classifier LSST',
     url='https://github.com/CSC380Team8/binary-classifier',
-    packages=['binary-classifier'],
+    packages=['binaryclassifier'],
 )

@@ -1,0 +1,19 @@
+package:
+  name: binaryclassifier
+  version: "0.1"
+
+source:
+  path: .
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+about:
+  home: https://github.com/CSC380Team8/binary-classifier
+  license: GPLv3
+  license_file: LICENSE
