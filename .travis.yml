@@ -16,6 +16,8 @@ install:
   - conda install conda-build
   - conda create -q --name test-environment python=$TRAVIS_PYTHON_VERSION
   - source activate test-environment
+  - conda install anaconda-client
+  - conda config --add channels conda-forge
 
 script:
   # Attempt to build and install the library
