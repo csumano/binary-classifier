@@ -1,6 +1,7 @@
-from hypothesis import given
 from binaryclassifier import EmulatorMain
 
 def test_createError():
-	error = EmulatorMain.createError()
-	assert error > -0.05 and error < 0.05
+    for x in range(0, 100):
+        error = EmulatorMain.createError()
+        print error # Show value in case of test failure
+        assert error >= -0.05 and error <= 0.05
